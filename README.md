@@ -13,9 +13,9 @@ To use this element:
 <custom-element-demo>
   <template>
     <script src="../webcomponentsjs/webcomponents-loader.js"></script>
-    <script type="module" href="../iron-icons/iron-icons.js"></script>
-    <script type="module" href="paper-fab-speed-dial.js"></script>
-    <script type="module" href="paper-fab-speed-dial-action.js"></script>
+    <script type="module" src="../iron-icons/iron-icons.js"></script>
+    <script type="module" src="paper-fab-speed-dial.js"></script>
+    <script type="module" src="paper-fab-speed-dial-action.js"></script>
     <custom-style>
     <style is="custom-style">
       body {
