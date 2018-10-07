@@ -1,4 +1,4 @@
-paper-fab-speed-dial [![Travis state](https://travis-ci.com/chadweimer/paper-fab-speed-dial.svg?branch=master)](https://travis-ci.org/chadweimer/paper-fab-speed-dial)  [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@cwmr/paper-fab-speed-dial)
+paper-fab-speed-dial [![Travis state](https://travis-ci.com/chadweimer/paper-fab-speed-dial.svg?branch=master)](https://travis-ci.com/chadweimer/paper-fab-speed-dial)  [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@cwmr/paper-fab-speed-dial)
 
 `paper-fab-speed-dial` provides components to build a material design [Floating Action Button with Speed Dial](https://www.google.com/design/spec/components/buttons-floating-action-button.html#buttons-floating-action-button-transitions). The web component is built with [Polymer 1.x](https://www.polymer-project.org).
 
