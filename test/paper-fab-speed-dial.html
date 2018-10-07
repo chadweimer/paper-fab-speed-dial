@@ -5,12 +5,12 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<script src="../../webcomponentsjs/webcomponents-lite.js"></script>
-		<script src="../../web-component-tester/browser.js"></script>
-		<script src="../../test-fixture/test-fixture-mocha.js"></script>
+		<script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-bundle.js"></script>
+		<script src="../node_modules/wct-browser-legacy/browser.js"></script>
+		<script src="../node_modules/@polymer/test-fixture/test-fixture-mocha.js"></script>
 		
-		<link rel="import" href="../paper-fab-speed-dial.html">
-		<link rel="import" href="../../test-fixture/test-fixture.html">
+		<script type="module" src="../paper-fab-speed-dial.js"></script>
+		<script type="module" src="../node_modules/@polymer/test-fixture/test-fixture.js"></script>
 	</head>
 	<body>
 	
@@ -20,30 +20,30 @@
 			</template>
 		</test-fixture>
 	
-		<script>
-			suite('<paper-fab-speed-dial>', function() {
-				suite('open/close behavior', function() {
+		<script type="module">
+			suite('<paper-fab-speed-dial>', () => {
+				suite('open/close behavior', () => {
 					var element;
-	
-					setup(function() {
-						element = fixture('TrivialElement');
+
+					setup(() => {
+									element = fixture('TrivialElement');
 					});
 					
-					test('defaults to closed', function() {
-						expect(element.opened).to.be.eql(false);
+					test('defaults to closed', () => {
+									expect(element.opened).to.be.eql(false);
 					});
 
-					test('is opened when calling open()', function() {
-						element.open();
-						expect(element.opened).to.be.eql(true);
+					test('is opened when calling open()', () => {
+									element.open();
+									expect(element.opened).to.be.eql(true);
 					});
 
-					test('is opened when calling open()', function() {
-						element.open();
-						expect(element.opened).to.be.eql(true); // Check pre-condition
+					test('is opened when calling open()', () => {
+									element.open();
+									expect(element.opened).to.be.eql(true); // Check pre-condition
 
-						element.close();
-						expect(element.opened).to.be.eql(false);
+									element.close();
+									expect(element.opened).to.be.eql(false);
 					});
 				});
 			});
