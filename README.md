@@ -1,8 +1,4 @@
-paper-fab-speed-dial [![Bower version](https://badge.fury.io/bo/paper-fab-speed-dial.svg)](http://badge.fury.io/bo/paper-fab-speed-dial) [![Travis state](https://travis-ci.org/Collaborne/paper-fab-speed-dial.svg?branch=master)](https://travis-ci.org/Collaborne/paper-fab-speed-dial)  [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Collaborne/paper-fab-speed-dial)
-  
-[![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/Collabornepaper-fab-speed-dial)
-[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/Collabornepaper-fab-speed-dial.svg)](https://vaadin.com/directory/component/Collabornepaper-fab-speed-dial)
-=========
+paper-fab-speed-dial [![Travis state](https://travis-ci.com/chadweimer/paper-fab-speed-dial.svg?branch=master)](https://travis-ci.org/chadweimer/paper-fab-speed-dial)  [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/@cwmr/paper-fab-speed-dial)
 
 `paper-fab-speed-dial` provides components to build a material design [Floating Action Button with Speed Dial](https://www.google.com/design/spec/components/buttons-floating-action-button.html#buttons-floating-action-button-transitions). The web component is built with [Polymer 1.x](https://www.polymer-project.org).
 
@@ -10,16 +6,16 @@ paper-fab-speed-dial [![Bower version](https://badge.fury.io/bo/paper-fab-speed-
 
 To use this element:
 
-`bower install paper-fab-speed-dial`
+`npm install @cwmr/paper-fab-speed-dial`
 
 <!--
 ```
 <custom-element-demo>
   <template>
-    <script src="../webcomponentsjs/webcomponents-lite.js"></script>
-    <link rel="import" href="../iron-icons/iron-icons.html">
-    <link rel="import" href="paper-fab-speed-dial.html">
-    <link rel="import" href="paper-fab-speed-dial-action.html">
+    <script src="../webcomponentsjs/webcomponents-loader.js"></script>
+    <script type="module" href="../iron-icons/iron-icons.js"></script>
+    <script type="module" href="paper-fab-speed-dial.js"></script>
+    <script type="module" href="paper-fab-speed-dial-action.js"></script>
     <custom-style>
     <style is="custom-style">
       body {
@@ -44,7 +40,8 @@ To use this element:
 
     This software is licensed under the Apache 2 license, quoted below.
 
-    Copyright 2011-2017 Collaborne B.V. <http://github.com/Collaborne/>
+    Copyright 2011-2017 Collaborne B.V. <https://github.com/Collaborne/>
+    Copyright 2018 Chad Weimer <https://github.com/chadweimer>
 
     Licensed under the Apache License, Version 2.0 (the "License"); you may not
     use this file except in compliance with the License. You may obtain a copy of
